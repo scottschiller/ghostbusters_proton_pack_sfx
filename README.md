@@ -4,7 +4,6 @@
 YouTube video: [Tech demo, hardware, wiring and code walk-through](https://youtu.be/2IxWJWbTv5s), ~35 min.
 
 ## “You're never going to regret this, Ray.”
--------------------------------------------
 **Motivation**
 
 In short, I wanted both CD-quality, and _more_, sound effects for my own proton pack—or should I say—unlicensed nuclear accelerator.
@@ -20,7 +19,6 @@ In 2015, I got a prop shop-made proton pack which included the then-standard “
 In my case, the Matty wand's line-out ran to a 12V car audio-style amplifier and speaker in the pack. The sound was _okay_, but not _great_ - and it didn't seem to have all the features I expected.
 
 ## Hardware
---------
 > _“Generally you don't see that kind of behaviour in a major appliance.”_
 
 Based on the first Ghostbusters film, the proton pack has at least one power switch and one “fire” button for its typical operations: Powering up, down, and fire start/stop.
@@ -32,7 +30,6 @@ Here is an early working prototype. Aside from the Adafruit Sound Board, most ot
 ![Arduino + Adafruit Sound Board prototype with power switch and fire button](images/arduino_adafruit_sound_board.jpg)
 
 ## Features
---------
 > _“I collect spores, molds and fungus.”_
 
 Included sounds and sequences:
@@ -42,7 +39,6 @@ Included sounds and sequences:
 * Neutrina wand / pack: Overheat warning, overheat, shut-down / exhaust / restart sound sequence
 
 ## Requirements
-------------
 > _“We have the tools, we have the talent!”_
 
 Skills, software, and hardware you will need:
@@ -54,7 +50,6 @@ Skills, software, and hardware you will need:
 * Soldering iron (FX header pins)
 
 ## Technical Considerations
-------------------------
 To build this, you will need to be able to:
 * Solder header pins to the Adafruit Audio FX Sound Board
 * Copy .WAV files (or flash a disk image) to the Sound Board from a computer
@@ -63,7 +58,6 @@ To build this, you will need to be able to:
 * Troubleshoot, compile and upload code from the IDE to your Arduino
 
 ## Wiring List and Schematic
--------------------------
 > _“There's something very important I forgot to tell you ... Don't cross the streams. It would be bad.”_
 
 Connections, mostly between the Arduino and Sound Board unless noted otherwise:
@@ -90,7 +84,6 @@ Illustrated schematic, rendred via Fritzing:
 ![Arduino / Adafruit SFX Sound Board wiring schematic illustration](images/arduino_sound_board_wiring_schematic.png)
 
 ## Compiling and Uploading `.ino` Code to the Arduino
---------------------------------------------------
 You will need to download and install the Arduino IDE on a computer, as well as the `Adafruit_Soundboard` library from Adafruit.
 
 Once installed, you should be able to open the `ghostbusters_adafruit_soundboard.ino` Arduino program source code in the Arduino IDE, and “verify” (compile) it without errors.
@@ -104,7 +97,6 @@ It can be helpful to change the `DEBUG` constant in the code to `1` or `2` to en
 Side note: If using an “off-brand” Arduino Nano, I found you may need to try changing the processor type if uploading doesn't work.
 
 ## Resources and Links
--------------------
 Adafruit Audio FX Sound Board: Tutorial, pinouts, power, copying files etc.    
 https://learn.adafruit.com/adafruit-audio-fx-sound-board/
 
