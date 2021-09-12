@@ -38,6 +38,10 @@ Included sounds and sequences:
 * Neutrina wand: “Fire start” (press), “Firing” (hold), “Fire stop” (release) sounds
 * Neutrina wand / pack: Overheat warning, overheat, shut-down / exhaust / restart sound sequence
 
+This is an approximation of the sequence, and logic flow of the proton pack sounds: from power on, to firing, to overheat / reset, and power off. A live visualization of this is shown in the [Tech demo video](https://www.youtube.com/watch?v=2IxWJWbTv5s&t=170s).
+
+![Proton Pack Sounds: Logic / flowchart. Power on/off, fire start/stop, overheat/reset sequence](images/proton_pack_logic_flowchart.jpg)
+
 ## Requirements
 > _“We have the tools, we have the talent!”_
 
